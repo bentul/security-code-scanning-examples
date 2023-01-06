@@ -1,0 +1,9 @@
+name: "CodeQL example-config for JS and TS"
+
+disable-default-queries: true
+
+languages: javascript
+
+queries:
+  - name: codeql repo
+    uses: codeql/blob/main/javascript/ql/src/Statements/DanglingElse.ql@master
