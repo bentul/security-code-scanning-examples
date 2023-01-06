@@ -6,3 +6,9 @@ languages: javascript
 
 queries:
   - uses: github/codeql/javascript/ql/src/Statements/DanglingElse.ql@main
+
+paths:
+  - src
+
+paths-ignore:
+  - '**/*.test.js'
