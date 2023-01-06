@@ -5,5 +5,4 @@ disable-default-queries: true
 languages: javascript
 
 queries:
-  - name: codeql repo
-    uses: github/codeql/blob/main/javascript/ql/src/Statements/DanglingElse.ql@master
+  - uses: security-extended
