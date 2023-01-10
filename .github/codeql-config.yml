@@ -1,8 +1,9 @@
 name: "CodeQL example-config for JS and TS"
 
-disable-default-queries: true
 
 languages: javascript
+
+disable-default-queries: false
 
 queries:
   - uses: github/codeql/javascript/ql/src/Statements/DanglingElse.ql@main
